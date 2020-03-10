@@ -1,6 +1,6 @@
 $packageName = 'starship'
-$url = 'https://github.com/starship/starship/releases/download/v0.33.0/starship-x86_64-pc-windows-msvc.zip'
-$checksum = '5edb5e97305ce0fe283785c1a48cb0f04c9f3df1b8cc66ca5aa1b67e161f99cf'
+$url = 'https://github.com/starship/starship/releases/download/v0.37.0/starship-x86_64-pc-windows-msvc.zip'
+$checksum = '5592fcb04e5a28838bda587851a36e4c28b029a9dbd20af01d2b34ac05bc6210'
 $checksumType = 'sha256'
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $installFile = Join-Path $toolsDir "starship.exe"
